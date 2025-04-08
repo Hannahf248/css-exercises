@@ -12,11 +12,11 @@ img {
   font-weight: 900;
   display: flex;
  justify-content: center;
-
+padding: 32px;
 }
 .allelements {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   gap: 52px;
   flex-grow: 1;
@@ -27,6 +27,8 @@ img {
   flex-direction: column;
   justify-content: center;
   width: 200px;
+  align-items: center;
+  text-align: center;
 
 }
 
@@ -35,7 +37,8 @@ img {
   flex-direction: column;
   justify-content: center;
   width: 200px;
-
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -44,7 +47,8 @@ img {
   flex-direction: column;
   justify-content: center;
   width: 200px;
-
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -53,8 +57,10 @@ img {
   flex-direction: column;
   justify-content: center;
   width: 200px;
-
+  align-items: center;
+  text-align: center;
 }
+
 
 
 /* do not edit this footer */
