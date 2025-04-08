@@ -8,6 +8,7 @@ body {
   font-family: Besley, serif;
 }
 
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
@@ -15,16 +16,26 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 8px;
 }
 
 .left-items {
   display: flex;
   flex-direction: row;
+  gap: 16px;
 }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
 
 .right-items {
   display: flex;
   flex-direction: row;
+  gap: 16px;
 }
 
 .profile-image {
