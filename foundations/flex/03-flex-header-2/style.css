@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  flex-grow: 1;
 }
 
 .links {
@@ -36,7 +37,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  margin-left: auto;
 }
 
 .profile-image {
