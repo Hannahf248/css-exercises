@@ -17,6 +17,16 @@ body {
   align-items: center;
 }
 
+.left-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-items {
+  display: flex;
+  flex-direction: row;
+}
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -24,6 +34,8 @@ body {
   width: 48px;
   height: 48px;
 }
+
+
 
 .logo {
   color: rebeccapurple;
