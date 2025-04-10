@@ -31,9 +31,10 @@ ul {
 
 a {
   text-decoration: none;
+  color: #505050;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 0px 20px 0px 20px;
@@ -53,6 +54,9 @@ a {
 gap: 10px;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
 
 
 
